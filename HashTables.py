@@ -33,13 +33,13 @@ def main():
         3. How many times does this hash table make itself bigger (change its size)? 9
         4. Which load factor in the range .5 to .9 in steps of .25 is optimal in the sense
         of least time to build the hash table given a start size of 11 on Books.txt?  ->0.5
-            0.5   - 5 second build time
-            0.75  - 8 second build time
+            0.5   - 0.2 second build time
+            0.75  - 0.8 second build time
         5. Which hash works best? 
         The original with a load factor of .5 using  the first character key and linear probing
         or your modified/optimized with steps 1-4 hash?
             original, build:  search:
-            modified, build: 5 (0.5 load factor) search average: 0.008853
+            modified, build: 0.2 (0.5 load factor) search average: 0.007906
         6. Write a function(s) that run after main is done to prove your conclusions for steps 5 & 6.
     """
     start = time.clock()

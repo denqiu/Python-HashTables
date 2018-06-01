@@ -7,7 +7,6 @@ loadFactor = load_factors[0]
 ttl_time = 0
 search_cnt = 0
 
-
 def measure_search_time(isbn, hashtbl):
     global ttl_time
     global search_cnt
